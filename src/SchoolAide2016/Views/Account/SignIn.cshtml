@@ -3,9 +3,9 @@
 *@
 @{
 }
-<form action="SignIn">
+<form asp-controller="Account" asp-action="SignIn" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
     name:<input type="text" name="Name" />
     <br />
-    email<input type="email" name="Email" />
+    Password<input type="text" name="Password" />
     <br /> <button type="submit">SignIn</button>
 </form>
