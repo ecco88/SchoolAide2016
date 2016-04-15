@@ -4,8 +4,5 @@
   "dependencies": {
     "jquery": "2.1.4",
     "bootstrap": "3.3.6"
-  },
-  "resolutions": {
-    "jquery": "1.9.1 - 2"
   }
 }

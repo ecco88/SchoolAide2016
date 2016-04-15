@@ -75,14 +75,14 @@ namespace SchoolAide2016
                 options.AutomaticChallenge = true;
             });
 
-            app.UseGoogleAuthentication(options =>
-           {
-               options.AuthenticationScheme = "Google";
-               options.SignInScheme = "Cookies";
-               options.ClientId = "";
-               options.ClientSecret = "";
-           }
-            )
+           // app.UseGoogleAuthentication(options =>
+           //{
+           //    options.AuthenticationScheme = "Google";
+           //    options.SignInScheme = "Cookies";
+           //    options.ClientId = "";
+           //    options.ClientSecret = "";
+           //}
+            //);
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
